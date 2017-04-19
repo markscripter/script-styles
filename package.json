@@ -1,0 +1,9 @@
+{
+  "name": "script-components",
+  "version": "0.0.0",
+  "description": "a front end development work environment",
+  "main": "src/index.js",
+  "repository": {},
+  "author": "Mark Scripter",
+  "license": "MIT"
+}

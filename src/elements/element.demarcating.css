@@ -1,0 +1,16 @@
+/*
+  These elements let you provide indications that specific parts of the text have been altered.
+  Typically you won't have to touch either of the items here, unless you want to change their default styling.
+*/
+
+/*
+  <del> represents text that has been deleted
+  Default:  strike through
+*/
+del {}
+
+/*
+  <ins> represents text that has been inserted
+  Default:  underlined
+*/
+ins {}
