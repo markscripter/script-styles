@@ -1,7 +1,24 @@
+/*
+  HTML supports various multimedia resources such as images, audio, and video.
+*/
+
+/* The HTML <area> element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a <map> element. */
 area {}
+
+/* The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <source> element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream. */
 audio {}
+
+/* The HTML <img> element represents an image in the document. */
 img {}
+
+/* The HTML <map> element is used with <area> elements to define an image map (a clickable link area). */
 map {}
+
+/* The HTML <picture> element is a container used to specify multiple <source> elements for a specific <img> contained in it. The browser will choose the most suitable source according to the current layout of the page (the constraints of the box the image will appear in) and the device it will be displayed on (e.g. a normal or hiDPI device.) */
 picture {}
+
+/* The HTML <track> element is used as a child of the media elements—<audio> and <video>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks. */
 track {}
+
+/* Use the HTML <video> element to embed video content in a document. */
 video {}

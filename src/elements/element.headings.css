@@ -1,6 +1,21 @@
+/*
+  The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest.
+*/
+
+/* Heading Level 1 */
 h1 {}
+
+/* Heading Level 2 */
 h2 {}
+
+/* Heading Level 3 */
 h3 {}
+
+/* Heading Level 4 */
 h4 {}
+
+/* Heading Level 5 */
 h5 {}
+
+/* Heading Level 6 */
 h6 {}
