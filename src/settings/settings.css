@@ -1,1 +1,2 @@
-@import "settings.typography.css"
+@import url("settings.colors.css");
+@import url("settings.typography.css");

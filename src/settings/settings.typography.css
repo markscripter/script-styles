@@ -2,6 +2,18 @@
 
 :root {
   --serif: 'Merriweather', serif;
-  --san-serif: 'Lato', sans-serif;
+  --sans-serif: 'Lato', sans-serif;
   --monospace: 'PT Mono', monospace;
+}
+
+.s-serif {
+  font-family: var(--serif);
+}
+
+.s-sans-serif {
+  font-family: var(--sans-serif);
+}
+
+.s-monospace {
+  font-family: var(--monospace);
 }

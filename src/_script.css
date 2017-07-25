@@ -1,0 +1,24 @@
+/*
+  Script Styles follows ITCSS.
+  See: http://itcss.io/
+
+--------------------------
+\        SETTINGS       /
+ \       GENERIC       /
+  \      ELEMENTS     /
+   \     OBJECTS     /
+    \   COMPONENTS  /
+     \  OVERRIDES  /
+      \           /
+       \         /
+        \       /
+         \     /
+          \   /
+           \ /
+*/
+@import url('./settings/settings.css');
+@import url('./generic/generic.css');
+@import url('./elements/elements.css');
+@import url('./objects/objects.css');
+@import url('./components/components.css');
+@import url('./overrides/overrides.css');

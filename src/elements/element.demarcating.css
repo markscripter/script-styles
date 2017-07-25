@@ -7,10 +7,14 @@
   <del> represents text that has been deleted
   Default:  strike through
 */
-del {}
+del {
+  text-decoration: line-through;
+}
 
 /*
   <ins> represents text that has been inserted
   Default:  underlined
 */
-ins {}
+ins {
+  text-decoration: underline;
+}

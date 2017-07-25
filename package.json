@@ -3,10 +3,24 @@
   "version": "0.0.0",
   "description": "a front end development work environment",
   "main": "src/index.js",
+  "scripts": {
+    "build": "postcss -c postcss.config.js",
+    "lint": "stylelint src/**/*.css",
+    "test": ""
+  },
   "repository": {},
   "author": "Mark Scripter",
   "license": "MIT",
   "devDependencies": {
-    "stylelint": "^7.10.1"
+    "autoprefixer": "^7.1.1",
+    "cssnano": "^3.10.0",
+    "postcss": "^6.0.3",
+    "postcss-cli": "^4.1.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-import": "^10.0.0",
+    "postcss-rtl": "^0.5.9",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "webpack": "^3.0.0"
   }
 }
