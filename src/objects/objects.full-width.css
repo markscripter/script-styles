@@ -1,5 +1,4 @@
 .o-full-width {
   display: block;
-  width: 100vw;
-  min-width: 100vw;
+  width: 100%;
 }

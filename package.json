@@ -6,9 +6,8 @@
   "scripts": {
     "build": "postcss -c postcss.config.js src/_script.css -o lib/script-styles.min.css",
     "lint": "stylelint src/**/*.css",
-    "test": "",
-    "start": "node server.js",
-    "watch": "npm run build -- -w"
+    "test": "npm run lint",
+    "start": "npm run build -- -w"
   },
   "repository": {},
   "author": "Mark Scripter",
@@ -16,14 +15,11 @@
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "cssnano": "^3.10.0",
-    "express": "^4.15.3",
     "postcss": "^6.0.3",
     "postcss-cli": "^4.1.0",
     "postcss-cssnext": "^2.10.0",
     "postcss-import": "^10.0.0",
-    "postcss-rtl": "^0.5.9",
     "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0",
-    "webpack": "^3.0.0"
+    "stylelint-config-standard": "^16.0.0"
   }
 }
