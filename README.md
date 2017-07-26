@@ -1,6 +1,12 @@
 # Script Styles
 This repository holds the styles for the base *script* package(s).
 
+```shell
+npm install
+npm run build
+npm run start
+```
+
 ## Overview
 *script* focuses on semantic, accessible, straight forward front end code (FEC). FEC mainly consists of HTML, CSS, and JavaScript.
 This repository focuses on the styles, or CSS portion.
