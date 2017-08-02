@@ -1,11 +1,14 @@
 {
-  "name": "script-components",
+  "name": "script-styles",
   "version": "0.0.0",
-  "description": "a front end development work environment",
-  "main": "src/index.js",
+  "description": "The styles for the script packages.",
   "scripts": {
-    "build": "postcss -c postcss.config.js src/_script.css -o lib/script-styles.min.css",
-    "lint": "stylelint src/**/*.css",
+    "build": "npm run clean && npm run build:website && npm run build:styles && npm run package",
+    "build:website": "pug -o dist src/index.pug",
+    "build:styles": "postcss -c postcss.config.js src/index.css -o dist/script-styles.css",
+    "clean": "rm -rf dist",
+    "lint": "stylelint **/*.css",
+    "package": "postcss -e production -c postcss.config.js src/index.css -o dist/script-styles.min.css",
     "test": "npm run lint",
     "start": "npm run build -- -w"
   },
@@ -19,7 +22,9 @@
     "postcss-cli": "^4.1.0",
     "postcss-cssnext": "^2.10.0",
     "postcss-import": "^10.0.0",
+    "pug-cli": "^1.0.0-alpha6",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0"
-  }
+  },
+  "dependencies": {}
 }

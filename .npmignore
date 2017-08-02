@@ -1,3 +1,7 @@
-client/
+src/
 .git/
 .gitignore
+.editorconfig
+package-lock.json
+postcss.config.js
+stylelint.config.js

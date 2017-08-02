@@ -4,12 +4,12 @@
   notes:
     No deprecated element is used as of 4/19/2017
 */
-@import url('element.demarcating.css');
-@import url('element.forms.css');
-@import url('element.headings.css');
-@import url('element.interactive.css');
-@import url('element.media.css');
-@import url('element.sectioning.css');
-@import url('element.tables.css');
-@import url('element.text-inline.css');
-@import url('element.text.css');
+@import url('demarcating.css');
+@import url('forms.css');
+@import url('headings.css');
+@import url('interactive.css');
+@import url('media.css');
+@import url('sectioning.css');
+@import url('tables.css');
+@import url('text-inline.css');
+@import url('text.css');
