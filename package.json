@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "The styles for the script packages.",
   "scripts": {
-    "build": "npm run clean && npm run build:website && npm run build:styles && npm run package",
+    "build": "npm run clean && npm run build:website && npm run package && npm run build:styles",
     "build:website": "pug -o dist src/index.pug",
     "build:styles": "postcss -c postcss.config.js src/index.css -o dist/script-styles.css",
     "clean": "rm -rf dist",
