@@ -7,7 +7,7 @@
     "build:website": "pug -o dist src/index.pug",
     "build:styles": "postcss -c postcss.config.js src/index.css -o dist/script-styles.css",
     "clean": "rm -rf dist",
-    "lint": "stylelint **/*.css",
+    "lint": "stylelint **/*.css -i dist/*.css",
     "package": "postcss -e production -c postcss.config.js src/index.css -o dist/script-styles.min.css",
     "test": "npm run lint",
     "start": "npm run build -- -w"
